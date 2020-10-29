@@ -18,4 +18,5 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
       - run: make pull
       - run: make tag
+      - run: make push
 

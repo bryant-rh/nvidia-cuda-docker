@@ -40,4 +40,3 @@ push-manifest:
 	docker manifest push bryantrh/cuda:11.1-base-ubuntu18.04
 	docker manifest push bryantrh/cuda:11.1-runtime-ubuntu18.04
 	docker manifest push bryantrh/cuda:11.1-devel-ubuntu18.04
-
