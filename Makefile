@@ -10,7 +10,7 @@ pull:
 
 tag:
 	docker tag nvidia/cuda:11.1-base-ubuntu18.04          bryantrh/cuda-amd64:11.1-base-ubuntu18.04
-	docker tag nvidia/cuda:11.1-runtime-ubuntu18.04       bryantrh/cud-amd64:11.1-runtime-ubuntu18.04
+	docker tag nvidia/cuda:11.1-runtime-ubuntu18.04       bryantrh/cuda-amd64:11.1-runtime-ubuntu18.04
 	docker tag nvidia/cuda:11.1-devel-ubuntu18.04         bryantrh/cuda-amd64:11.1-devel-ubuntu18.04
 	docker tag nvidia/cuda-arm64:11.1-base-ubuntu18.04    bryantrh/cuda-arm64:11.1-base-ubuntu18.04
 	docker tag nvidia/cuda-arm64:11.1-runtime-ubuntu18.04 bryantrh/cuda-arm64:11.1-runtime-ubuntu18.04
