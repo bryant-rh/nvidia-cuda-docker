@@ -19,7 +19,7 @@ jobs:
       - run: make pull
       - run: make tag
       - run: make push
-      - run: make manifest
-      - run: make inspect-manifest
-      - run: make push-manifest
+#      - run: make manifest
+#      - run: make inspect-manifest
+#      - run: make push-manifest
 

@@ -1,28 +1,28 @@
 PLATFORM := linux/amd64,linux/arm64
 
 pull:
-	docker pull nvidia/cuda:11.1-base-ubuntu18.04
-	docker pull nvidia/cuda:11.1-runtime-ubuntu18.04
-	docker pull nvidia/cuda:11.1-devel-ubuntu18.04
-	docker pull nvidia/cuda-arm64:11.1-base-ubuntu18.04
-	docker pull nvidia/cuda-arm64:11.1-runtime-ubuntu18.04
+	#docker pull nvidia/cuda:11.1-base-ubuntu18.04
+	#docker pull nvidia/cuda:11.1-runtime-ubuntu18.04
+	#docker pull nvidia/cuda:11.1-devel-ubuntu18.04
+	#docker pull nvidia/cuda-arm64:11.1-base-ubuntu18.04
+	#docker pull nvidia/cuda-arm64:11.1-runtime-ubuntu18.04
 	docker pull nvidia/cuda-arm64:11.1-devel-ubuntu18.04
 
 tag:
-	docker tag nvidia/cuda:11.1-base-ubuntu18.04          bryantrh/cuda-amd64:11.1-base-ubuntu18.04
-	docker tag nvidia/cuda:11.1-runtime-ubuntu18.04       bryantrh/cuda-amd64:11.1-runtime-ubuntu18.04
-	docker tag nvidia/cuda:11.1-devel-ubuntu18.04         bryantrh/cuda-amd64:11.1-devel-ubuntu18.04
-	docker tag nvidia/cuda-arm64:11.1-base-ubuntu18.04    bryantrh/cuda-arm64:11.1-base-ubuntu18.04
-	docker tag nvidia/cuda-arm64:11.1-runtime-ubuntu18.04 bryantrh/cuda-arm64:11.1-runtime-ubuntu18.04
-	docker tag nvidia/cuda-arm64:11.1-devel-ubuntu18.04   bryantrh/cuda-arm64:11.1-devel-ubuntu18.0
+	#docker tag nvidia/cuda:11.1-base-ubuntu18.04          bryantrh/cuda-amd64:11.1-base-ubuntu18.04
+	#docker tag nvidia/cuda:11.1-runtime-ubuntu18.04       bryantrh/cuda-amd64:11.1-runtime-ubuntu18.04
+	#docker tag nvidia/cuda:11.1-devel-ubuntu18.04         bryantrh/cuda-amd64:11.1-devel-ubuntu18.04
+	#docker tag nvidia/cuda-arm64:11.1-base-ubuntu18.04    bryantrh/cuda-arm64:11.1-base-ubuntu18.04
+	#docker tag nvidia/cuda-arm64:11.1-runtime-ubuntu18.04 bryantrh/cuda-arm64:11.1-runtime-ubuntu18.04
+	docker tag nvidia/cuda-arm64:11.1-devel-ubuntu18.04   bryantrh/cuda-arm64:11.1-devel-ubuntu18.04
 
 push:
-	docker push  bryantrh/cuda-amd64:11.1-base-ubuntu18.04
-	docker push  bryantrh/cuda-amd64:11.1-runtime-ubuntu18.04
-	docker push  bryantrh/cuda-amd64:11.1-devel-ubuntu18.04
-	docker push  bryantrh/cuda-arm64:11.1-base-ubuntu18.04
-	docker push  bryantrh/cuda-arm64:11.1-runtime-ubuntu18.04
-	docker push  bryantrh/cuda-arm64:11.1-devel-ubuntu18.0
+	#docker push  bryantrh/cuda-amd64:11.1-base-ubuntu18.04
+	#docker push  bryantrh/cuda-amd64:11.1-runtime-ubuntu18.04
+	#docker push  bryantrh/cuda-amd64:11.1-devel-ubuntu18.04
+	#docker push  bryantrh/cuda-arm64:11.1-base-ubuntu18.04
+	#docker push  bryantrh/cuda-arm64:11.1-runtime-ubuntu18.04
+	docker push  bryantrh/cuda-arm64:11.1-devel-ubuntu18.04
 	
 	
 manifest:
