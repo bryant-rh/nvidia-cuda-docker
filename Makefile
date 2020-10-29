@@ -18,7 +18,7 @@ tag:
 
 push:
 	docker push  bryantrh/cuda-amd64:11.1-base-ubuntu18.04
-	docker push  bryantrh/cud-amd64:11.1-runtime-ubuntu18.04
+	docker push  bryantrh/cuda-amd64:11.1-runtime-ubuntu18.04
 	docker push  bryantrh/cuda-amd64:11.1-devel-ubuntu18.04
 	docker push  bryantrh/cuda-arm64:11.1-base-ubuntu18.04
 	docker push  bryantrh/cuda-arm64:11.1-runtime-ubuntu18.04
